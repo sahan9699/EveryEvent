@@ -1,0 +1,51 @@
+
+.formContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.formDiv{
+    padding: 10px;
+    width: 50%;
+   
+}
+.heading{
+    margin: auto;
+    width: 15vw;
+    padding: 0px 0px;
+}
+.cor1{
+    background-color: red;
+}
+.cor2{
+    background-color: green;
+}
+
+.formDiv12{
+    padding: 10px;
+    width: 50%;
+   
+}
+
+.postad-form{
+    margin-top: 10vh;
+    min-height : 500px;
+    background-color: white;
+    
+}
+.headerForm{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+}
+.headerForm .item{
+    width: 300px;
+    height: 80px;
+
+
+}
+.modal {  
+    z-index: 2000000;  
+}

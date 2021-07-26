@@ -1,0 +1,53 @@
+.container {
+    padding: 0% ;
+}
+.details{
+    flex: 1;
+    border-right: 1px solid #F1F1F1;  
+}
+.facebook-btn,.gmail-btn {
+    border: 1px solid black;
+}
+.loginForm{
+    flex: 1;
+    padding: 36px;
+ 
+}
+.loginPage{
+    margin-top: 10vh;
+    height : auto;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row; 
+}
+
+/* ===============style for middle devise================ */
+@media only screen and (max-width: 992px) {
+    .details{
+        border-bottom: 1px solid #F1F1F1;
+        border-right: unset;
+    }
+    .loginPage{
+        flex-direction: column;
+    }
+   
+  }
+/* =======xx=======style for middle devise=========xx===== */
+
+
+/* ===============style for mobile================ */
+  @media only screen and (max-width: 600px) {
+    .gmail-btn {
+        margin-left: 0px !important;
+        margin-top: 7px;
+    }
+    .facebook-btn,.gmail-btn {
+        width: 100%;
+    }
+   .loginForm {
+       padding: 17px;
+   }
+     
+  }
+  /* ======xx========style for mobile========xx====== */

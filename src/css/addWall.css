@@ -1,0 +1,149 @@
+.all-category{
+    padding: 10px 0px;
+    border-bottom: 1px solid #E7EDEE;
+}
+.all-location{
+    padding: 10px 0px;
+}
+.ad-wall{
+    margin-top: 10vh;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.container{
+   
+    height : auto;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+}
+.content-area{
+    flex: 3;
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    
+}
+
+.content-area .advertisment {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ padding: 5px;
+ border: 1px solid #888888;
+ border-top:    1px solid  #888888;
+border-right:  0px dashed #f0F;
+border-bottom: 1px solid #888888;
+border-left:   0px solid  #888888;
+}
+
+.content-area .advertisment .image-area{
+    flex: 1;
+    height: 160px;
+    padding: 5px;
+}
+
+.content-area .advertisment .details-area{
+    flex: 3;
+    height: 160px;
+    
+}
+.category-area{
+    flex:1; 
+    height: 80px; 
+    padding-top: 10px;
+}
+.category-area img{
+ margin-top:-2px !important;
+}
+.details-flex{
+    margin-right: 60px;
+}
+.form-check{
+    padding:  0px !important;
+}
+.header{
+    width: 100%;
+    height: 70px;  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img-text-alinge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .image-flex , .details-flex {
+    flex: 1;
+}
+.image-flex img{
+    margin-left: 27px
+}
+.location-area{
+    flex:1; 
+    height: 80px;
+    padding:16px 1px 1px 75px;
+}
+.list-group-item {
+   
+    padding: 0.4rem 1.25rem !important;
+   
+}
+.list-group-item{
+    cursor: pointer;
+}
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #FFA681;
+    border-color: #FFA681;   
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 460px;
+    border-top: 1px solid #E7EDEE;
+   
+}
+.sorting-area{
+    flex: 1; 
+    border-right: 1px solid #E7EDEE;  
+    padding: 15px 10px 10px 10px;
+    text-align: center;
+   
+}
+.search-area{
+    flex: 3;
+    height: 80px;   
+}
+.search-area input{
+    width: 80%;
+    padding: 8px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid #E7EDEE;
+} 
+
+.sorting-section {
+    border-bottom: 1px solid #E7EDEE;
+    padding-bottom: 10px;
+}
+.sub-category {
+    margin-top: 10px;
+    border-bottom: 1px solid #E7EDEE;
+    padding-bottom: 10px;
+}

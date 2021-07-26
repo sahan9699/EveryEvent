@@ -1,0 +1,37 @@
+.collaps-icon{
+    background-color: #F48D21;
+    border-radius: 5px;
+}
+.post-ad-btn{
+    margin-left: 10px ;
+    margin-top: 3px;
+}
+.navbar {
+    background-color: white;
+    color: black;
+    padding: .2rem 1rem;
+}
+nav.mb-1.navbar.navbar-expand-lg.navbar-dark.secondary-color.lighten-1 {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar-brand {
+    color: black !important;
+}
+.nav-link {
+    color: black !important;
+}
+.mb-1 {
+    margin-bottom: 0rem!important;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0rem; 
+    padding-bottom: 0rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: normal;
+    
+}
